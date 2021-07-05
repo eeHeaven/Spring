@@ -7,9 +7,9 @@
 ~~1강 - 스프링이란?~~           
 ~~2강 - 스프링 프로젝트 만들기~~       
 ~~3강 - DI(Dependency Injection) (1)~~             
-4강 - DI(Dependency Injection) (2)       
-5강 - DI 활용         
-6강 - DI 설정 방법        
+~~4강 - DI(Dependency Injection) (2)~~       
+~~5강 - DI 활용~~         
+~~6강 - DI 설정 방법~~        
 7강 - 생명주기 (life cycle) 와 범위          
 8강 - 외부파일을 이용한 설정           
 9강 - AOP(Aspect Oriented Programming) (1)              
