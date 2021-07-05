@@ -19,9 +19,10 @@ secondNum = setSecondNum()
 -main class에서 xml과 연동하기 
 ```java
  String configLoc = "classpath:applicationCTX.xml";
-        AbstractApplicationContext ctx = new GenericXmlApplicationContext(configLoc);
-        MyCalculator myCalculator = ctx.getBean("mycCalculator", MyCalculator.class);
+        AbstractApplicationContext ctx = new GenericXmlApplicationContext(configLoc);     //스프링 컨테이너 (IOC) 생성
+        MyCalculator myCalculator = ctx.getBean("mycCalculator", MyCalculator.class);     //스프링 컨테이너에서 컴포넌트 가져옴 
+        ctx.close(); 
 ```
 
-
+**xml에 참조해오는 class에서 접근하는 변수에 대해서는 반드시 set함수들이 전부 정의되어 있어야 함**               
 
