@@ -10,7 +10,7 @@
 ~~4강 - DI(Dependency Injection) (2)~~       
 ~~5강 - DI 활용~~         
 ~~6강 - DI 설정 방법~~        
-7강 - 생명주기 (life cycle) 와 범위          
+~~7강 - 생명주기 (life cycle) 와 범위          
 8강 - 외부파일을 이용한 설정           
 9강 - AOP(Aspect Oriented Programming) (1)              
 10강 - AOP (2)            
@@ -18,7 +18,7 @@
 12강 - 컨트롤러           
 13강 - Form 데이터           
 14강 -@RequestMapping 파라미터         
-15강 - 폼 데이터 값 검증            
+15강 - 폼 데이터 값 검증~~            
 16강 - 스프링 MVC 게시판 (1)          
 17강 - 스프링 MVC 게시판 (2)         
 18강 - 스프링 MVC 게시판 (3)        
