@@ -59,3 +59,38 @@ public class LogAop{
 4. aop:after - 메소드 실행 중 exception이 발생하여도 advice 실행
 5. aop:around - 메서드 실행 전/후 및 exception 발생 시 advice 실행 
 ***************************
+
+4. 자바클래스 파일에 Aspect 설정
+```java
+@Aspect // annotation으로 설정 가능 
+public class LogAop{
+  
+  @Pointcut("within/com.javalec.ex.*)")
+  private void pointcutMethod(){
+  }
+  
+  @Around("pointcutMethod()")
+  public Object loggerAop(ProceedingJoinPoint joinpoint) throws Throwable{
+  ~~~ } //공통 제작 클래스 
+```
+
+5. AspectJ Pointcut 표현식                
+**Execution**         
+```java
+@Pointcut("execution(public void get*(..))") //public void인 모든 get메소드           
+@Pointcut("execution(* com.javalec.ex.*.*())") //com.javalec.ex 패키지에 파라미터가 없는 모든 메소드   
+@Pointcut("execution(* com.javalec.ex..*.*())") //com.javalec.ex 와 그의 하위 패키지에 파라미터가 없는 모든 메소드         
+@Pointcut("execution(* com.javalec.ex.Worker.*())") //com.javalec.ex.Worker 모든 메소드     
+```
+**within**  
+```java
+@Pointcut("within/com.javalec.ex.*)") //패키지 안에 있는 모든 메소드     
+@Pointcut("within/com.javalec.ex..*)") //패키지 및 하위 패키지 안에 있는 모든 메소드          
+@Pointcut("within/com.javalec.ex.Worker*)") // com.javalec.ex.Worker 모든 메소드    
+```
+**bean**        
+```java
+@Pointcut("bean(student)") // student 빈에만 적용      
+@Pointcut("bean(*ker)") // ~ker로 끝나는 빈에만 적용          
+```
+
