@@ -22,12 +22,12 @@
 ~~16강 - 스프링 MVC 게시판 (1)~~          
 ~~17강 - 스프링 MVC 게시판 (2)~~         
 ~~18강 - 스프링 MVC 게시판 (3)~~        
-19강 - 스프링 MVC 게시판 (4)         
+~~19강 - 스프링 MVC 게시판 (4)         
 20강 - 스프링 MVC 게시판 (5)           
 21강 - 스프링 JDBC          
 22강 - 트랜젝션(Transaction) (1)         
 23강 - 트랜젝션(Transaction) (2)             
-24강 - 트랜젝션(Transaction) (3)            
+24강 - 트랜젝션(Transaction) (3)~~            
 25강 - 보안 Security (1)             
 26강 - Security (2)            
 27강 - Security (3)             
