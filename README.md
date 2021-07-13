@@ -1,5 +1,35 @@
 # Spring
 스프링 연습 및 공부 정리 
+*********************************
+  ~~**스프링 프레임워크 핵심 기술**    
+강좌 및 스프링 소개       
+강사 소개        
+**IoC 컨테이너와 빈**       
+IoC 컨테이너 1부: 스프링 IoC 컨테이너와 빈~~        
+IoC 컨테이너 2부: ApplicationContext와 다양한 빈 설정 방법          
+IoC 컨테이너 3부: @Autowire         
+IoC 컨테이너 4부: @Component와 컴포넌트 스캔                       
+IoC 컨테이너 5부: 빈의 스코프                       
+IoC 컨테이너 6부: Environment 1부. 프로파일                
+IoC 컨테이너 6부: Environment 2부. 프로퍼티                       
+IoC 컨테이너 7부: MessageSource                   
+IoC 컨테이너 8부: ApplicationEventPublisher                   
+IoC 컨테이너 9부: ResourceLoader                           
+**Resource / Validation**                     
+Resource 추상화                     
+Validation 추상화                  
+**데이터 바인딩**                    
+데이터 바인딩 추상화: PropertyEditor                       
+데이터 바인딩 추상화: Converter와 Formatter          
+**SpEL**                         
+SpEL (스프링 Expression Language)                        
+**스프링 AOP**                   
+스프링 AOP: 개념 소개                  
+스프링 AOP: 프록시 기반 AOP                         
+스프링 AOP: @AOP                
+**Null-Safety**                  
+Null-safety                   
+outro                                     
 
 *********************************
   **신입 프로그래머를 위한 자바 스프링 (Spring) 프레임워크 강좌**   
@@ -28,10 +58,10 @@
 22강 - 트랜젝션(Transaction) (1)         
 23강 - 트랜젝션(Transaction) (2)             
 24강 - 트랜젝션(Transaction) (3)~~            
-25강 - 보안 Security (1)             
+~~25강 - 보안 Security (1)             
 26강 - Security (2)            
 27강 - Security (3)             
 28강 - Mybatis (1)              
 29강 - Mybatis (2)            
-30강 - Mybatis (3)           
+30강 - Mybatis (3)~~           
 ***********************************
