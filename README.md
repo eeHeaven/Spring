@@ -14,7 +14,7 @@ IoC 컨테이너 6부: Environment 1부. 프로파일
 IoC 컨테이너 6부: Environment 2부. 프로퍼티                       
 IoC 컨테이너 7부: MessageSource                   
 IoC 컨테이너 8부: ApplicationEventPublisher                   
-IoC 컨테이너 9부: ResourceLoader~~                           
+~~IoC 컨테이너 9부: ResourceLoader~~                           
 **Resource / Validation**                     
 Resource 추상화                     
 Validation 추상화                  
@@ -29,7 +29,7 @@ SpEL (스프링 Expression Language)
 스프링 AOP: @AOP                
 **Null-Safety**                  
 Null-safety                   
-outro                                     
+outro~~                                     
 
 *********************************
 ### 신입 프로그래머를 위한 자바 스프링 (Spring) 프레임워크 강좌   
