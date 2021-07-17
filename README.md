@@ -5,11 +5,11 @@
 섹션 1. 스프링 예제 프로젝트 PetClinic                      
 프로젝트 설정              
 프로젝트 살펴보기~~             
-프로젝트 과제 풀이              
+~~프로젝트 과제 풀이              
 /과제/       
 ~~1. 유저 검색 LastName -> FirstName으로~~ -> Did it by Myself!                             
 2. 유저검색시 이름의 일부만 검색해도 결과가 나오도록                              
-3. Owner에 age 추가        
+3. Owner에 age 추가~~        
 
 
 섹션 2. 스프링 IoC             
