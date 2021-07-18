@@ -12,17 +12,17 @@
 3. Owner에 age 추가~~        
 
 
-섹션 2. 스프링 IoC             
+~~섹션 2. 스프링 IoC             
 스프링 IoC              
 스프링 IoC 컨테이너             
 스프링 빈(Bean)               
-의존성 주입 (Dependency Injection)                      
-섹션 3. 스프링 AOP                 
+의존성 주입 (Dependency Injection)~~                      
+~~섹션 3. 스프링 AOP                 
 스프링 AOP             
 프록시 패턴             
 스프링 @AOP 실습             
 섹션 4. 스프링 PSA              
-스프링 PSA                      
+스프링 PSA~~                      
 *********************************
 ### 스프링 프레임워크 핵심 기술
 ~~강좌 및 스프링 소개       
