@@ -28,3 +28,30 @@ URI를 가능한 지정된 리소스에 균일하고 통일된 인터페이스�
 HATEOAS는 클라이언트에 응답하는 형식을 단순히 결과 데이터만 제공해주는 것이 아니라 URI를 같이 제공하는 것.        
 
 
+#### @ResponseBody 객체 반환
+```java
+@Controller
+public class HelloController {
+ @GetMapping("hello-api")
+ @ResponseBody
+ public Hello helloApi(@RequestParam("name") String name) {
+ Hello hello = new Hello();
+ hello.setName(name);
+ return hello;
+ }
+ static class Hello {
+ private String name;
+ public String getName() {
+ return name;
+ }
+ public void setName(String name) {
+ this.name = name;
+ }
+ }
+}
+```
+RequestBody 어노테이션을 사용하고 객체를 반환하면 객체가 Json으로 변환됨           
+
+#### @ResponseBody 사용원리 
+![캡처](https://user-images.githubusercontent.com/84822464/129319526-20cc1929-1223-494a-9fa2-6bf113d3242b.PNG)
+
